@@ -4,10 +4,12 @@ defmodule UeberauthBluesky.MixProject do
   def project do
     [
       app: :ueberauth_bluesky,
-      version: "0.0.1",
+      description: "Ueberauth strategy for Bluesky (atproto)",
+      version: "0.1.0",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      license: "Hippocratic-2.1"
     ]
   end
 
